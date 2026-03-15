@@ -77,7 +77,7 @@ const ThemeContext = createContext();
 
 export function ThemeProvider({ children }) {
   // Change the theme here by editing the key below (pink, purple, gold, emerald, or cyan)
-  const currentTheme = "cyan";
+  const currentTheme = "emerald";
 
   return (
     <ThemeContext.Provider value={{ theme: THEMES[currentTheme] }}>
